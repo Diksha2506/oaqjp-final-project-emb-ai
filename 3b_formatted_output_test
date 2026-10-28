@@ -1,0 +1,7 @@
+$ python3
+Python 3.11.7 (main, Dec 15 2023, 18:12:31) [GCC 11.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from EmotionDetection.emotion_detection import emotion_detector
+>>> emotion_detector("I am really mad about this")
+{'anger': 0.95, 'disgust': 0.01, 'fear': 0.02, 'joy': 0.01, 'sadness': 0.01, 'dominant_emotion': 'anger'}
+>>> exit()
